@@ -1,0 +1,24 @@
+{
+  "name": "oharato",
+  "version": "1.0.0",
+  "description": "- 👋 Hi, I’m @oharato - 👀 I’m interested in Ruby(Rails), JavaScript(Vue.js), Java(Spring Boot) products. - 🌱 I’m currently learning Playframework to maintain an old service. I want to replace it to another framework. - 💞️ I’m looking to collaborate on ... - 📫 How to reach me ...",
+  "main": "index.js",
+  "scripts": {
+    "update-portfolio": "node scripts/update-portfolio.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oharato/oharato.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/oharato/oharato/issues"
+  },
+  "homepage": "https://github.com/oharato/oharato#readme",
+  "dependencies": {
+    "puppeteer": "^24.37.5"
+  }
+}
