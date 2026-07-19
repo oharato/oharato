@@ -25,6 +25,21 @@
 
 ### 金融系
 
+#### 📦 [stock-data](https://github.com/oharato/stock-data)
+- **概要**: 日本株の株価データをスクレイピングし、DuckDBデータベースとしてビルド・配信するプロジェクトです。GitHub Actions を利用した自動ビルド、GitHub Cache を用いた高速な差分更新、Releases への自動アセットアップロード（`stock.duckdb`）に対応しており、MCP (Model Context Protocol) 経由でAIアシスタントから直接データ分析を行うことも可能です。
+- **アプリURL**: (なし)
+- **リポジトリURL**: https://github.com/oharato/stock-data
+
+#### 📈 [sectorflow-jp](https://github.com/oharato/sectorflow-jp)
+- **概要**: 東証33業種の株価指数データをJPXから取得・更新し、セクターごとのトレンド動向を追跡・管理するためのツールです。
+- **アプリURL**: (なし)
+- **リポジトリURL**: https://github.com/oharato/sectorflow-jp
+
+#### 📑 [tdnet-ts](https://github.com/oharato/tdnet-ts)
+- **概要**: TDnet（適時開示情報閲覧サービス）から開示情報を取得し、Markdownへの変換やSQLiteデータベースでの管理、検索ができるTypeScriptライブラリおよびCLIツールです。GitHub Actionsを利用した定期データ同期とGitHub Pagesへの自動デプロイ機能を備えています。
+- **アプリURL**: (なし)
+- **リポジトリURL**: https://github.com/oharato/tdnet-ts
+
 #### 📊 [databricks](https://github.com/oharato/databricks)
 - **概要**: Databricks 上の株価データ (`main.default.stock_prices`) を可視化する Streamlit アプリケーションです。
 - **アプリURL**: https://oharato-stock-analyze-on-databricks.streamlit.app/
